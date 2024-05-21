@@ -140,7 +140,7 @@
     
     .chips{
         position: relative;
-        top: 150px;
+        top: 215px;
     }
 
     .chips div:first-child{
@@ -152,11 +152,11 @@
         width: 150px;
     }
 
-    .chips .chips-two{
+    .chips .chips-twos{
         position: absolute;
         right: -15px;
     }
-    .chips .chips-two img{
+    .chips .chips-twos img{
         width: 150px;
     }
 
@@ -290,7 +290,7 @@
         justify-content: space-between;
     }
 
-    .chips-two{
+    .chips-twos{
         position: absolute;
         bottom: 0;
         right: -20px;
@@ -310,15 +310,6 @@
 }
 
 @media (min-width:400px) {
-    /* .Chip-bundle{
-        position: relative;
-        left: 50px;
-    }
-
-    .Fruit-bundle{
-        position: relative;
-        left: 60px;
-    } */
     
 
     .String img{

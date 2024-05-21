@@ -15,11 +15,12 @@
         width: 500px !important;
         height: 320px;
     }
-    .chips-two{
+    .chips-Two{
         position: absolute;
+        bottom: 0;
         right: 0;
     }
-    .chips-two img{
+    .chips-Two img{
         width: 500px;
     }
 
@@ -34,6 +35,7 @@
 }
 
 @media (max-width:768px) {
+
     .Chilli-pepper{
         position: absolute !important;
         right: 0;
@@ -49,12 +51,12 @@
         width: 150px !important;
         height: 180px;
     }
-    .Chips-two{
+    .chips-Two{
         position: absolute;
         right: 0;
         bottom: 0;
     }
-    .Chips-two img{
+    .chips-Two img{
         width: 200px;
     }
 

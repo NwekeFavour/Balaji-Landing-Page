@@ -19,7 +19,7 @@ function about(props) {
                     <div className='chips-one'>
                         <img src={ChipOne}/>
                     </div>
-                    <div className='chips-two'>
+                    <div className='chips-Two'>
                         <img src={ChipTwo}/>
                     </div>
                 </div>

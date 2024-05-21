@@ -13,7 +13,7 @@ function header(props) {
     return (
         <div>
             <Container fluid className='d-md-block align-items-center gap-3 p-0 my-2'>
-                <Row className='d-flex d-md-flex m-0 align-items-center align-items-center'>
+                <Row className='d-flex d-md-flex m-0 align-items-center '>
                     <Col className='col-md-4 px-2'>
                         <div> 
                             <img className='Logo' src={Logo} alt="" />
@@ -29,7 +29,7 @@ function header(props) {
                         <Col className=' col-md-3 d-block m-0 md-align-items-center'>
                             <div className=' nav'>
                                 <div className='d-md-none closeBtn d-block'>
-                                    <i onClick={() => SetNavOpen(false)} class="bi bi-x-lg"></i>  
+                                    <i onClick={() => SetNavOpen(false)} className="bi bi-x-lg"></i>  
                                 </div>
                                     <Link to={'/hero'}>Home</Link>
                                     <Link to={'/about'}>About</Link>

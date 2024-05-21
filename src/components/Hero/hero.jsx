@@ -78,9 +78,9 @@ function hero(props) {
                     </Col> 
                     <div className='chips'>
                         <div>
-                                <img src={ChipOne}/>
+                            <img src={ChipOne}/>
                         </div>
-                        <div className='chips-two'>
+                        <div className='chips-twos'>
                             <img src={ChipTwo}/>
                         </div>
                     </div>

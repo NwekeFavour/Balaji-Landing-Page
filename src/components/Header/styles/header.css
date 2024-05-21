@@ -44,7 +44,7 @@
 @media (max-width:768px) {
     .nav{
         background-color: #c2bcbb;
-        height: 50vh;
+        height: 60vh;
         z-index: 1;
         position: absolute !important;
         top: 50px !important;
@@ -61,6 +61,10 @@
         right: 0;
         transition: 0.4s;
 
+    }
+
+    .GridIcon div i{
+        font-size: 25px;
     }
 
     .closeBtn{
