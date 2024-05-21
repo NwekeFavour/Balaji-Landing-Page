@@ -1,0 +1,76 @@
+.Logo{
+    width: 51.38px !important;
+    height: 40px !important;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .Logo{
+        width: 102.77px !important;
+        height: 80px !important;
+    }
+
+    .inputTag input{
+        outline: none !important;
+        border: 0 !important;
+        background-color: transparent !important;
+        
+    }
+
+    ::placeholder{
+        color: #c2bcbb;
+    }
+
+    .inputTag{
+        border: 2px solid #c2bcbb !important;
+        border-radius: 20px;
+        color: #c2bcbb !important;
+    }
+
+    .navDesktop ul{
+        display: flex !important;
+    }
+
+    .navDesktop a {
+        text-decoration: none;
+        color: #000000;
+
+    }
+    
+}
+
+@media (max-width:768px) {
+    .nav{
+        background-color: #c2bcbb;
+        height: 50vh;
+        z-index: 1;
+        position: absolute !important;
+        top: 50px !important;
+        right: 0;
+        top: 50px;
+        width: 100px;
+        padding: 20px;
+        line-height: 50px;
+        transition: 0.4s;
+    }
+
+    .GridIcon{
+        position: absolute;
+        right: 0;
+        transition: 0.4s;
+
+    }
+
+    .closeBtn{
+        position: relative;
+        left: 0;
+    }
+
+    .nav a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+}

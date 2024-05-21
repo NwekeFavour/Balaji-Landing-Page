@@ -1,0 +1,333 @@
+
+.HeroHeader h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.HeroHeader p{
+    font-size: 12px;
+    width: 215px;
+    margin: 0 !important;
+}
+
+.hero-image{
+    width: 200px;
+
+}
+
+.hero-image img{
+    width: 159.57px;
+    height: 218.91px;
+}
+
+
+.String{
+    bottom: -60px;
+}
+
+.String img{
+    width: 163.74px;
+    height: 164.1px;
+}
+
+.Cart{
+    width: 134.38px !important;
+    height: 46.88px;
+    border-radius: 50px;
+}
+
+
+
+@media (max-width:768px) {
+
+    .HeroHeader p{
+        width: 300px;
+    }
+    
+    .shopping-content{
+        position: absolute;
+        bottom: -100px;
+        
+    }
+    .Cart img{
+        width: 37.5px;
+        height: 37.5px;
+    }
+
+    .Cart a{
+        font-size: 12.5px;
+    }
+
+    .increase-icon{
+        width: 37.5px;
+        height: 37.5px;
+    }
+    .increase-icon a{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .decrease-icon{
+        width: 37.5px;
+        height: 37.5px;
+    }
+    .decrease-icon a{
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .Plane{
+        position: relative;
+        bottom: 25px;
+        left: 132px;
+    }
+
+    .Plane img{
+        width: 58.3px;
+        height: 40px;
+    }
+
+    .Fruit{
+        position: relative;
+        top: 100px;
+        right: 60px;
+    }
+
+    .Fruit .corn{
+        background-color: #D51037;
+        width: 26.67px;
+        height: 26.67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .Fruit .corn img{
+        width: 9.43px;
+        height: 18.96px;
+    }
+
+    .Fruit .Chilli{
+        background-color: #EEA936;
+        width: 26.67px;
+        height: 26.67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .Fruit .Chilli img{
+        width: 18.33px;
+        height: 12.35px;
+    }
+
+    .Fruit .Fire{
+        background-color: #23675A;
+        width: 26.67px;
+        height: 26.67px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+
+    .Fruit .Fire img{
+        width: 12.39px;
+        height: 15.08px;
+    }
+    
+    .chips{
+        position: relative;
+        top: 150px;
+    }
+
+    .chips div:first-child{
+        position: absolute;
+        left: -10px;
+    }
+
+    .chips div:first-child img{
+        width: 150px;
+    }
+
+    .chips .chips-two{
+        position: absolute;
+        right: -15px;
+    }
+    .chips .chips-two img{
+        width: 150px;
+    }
+
+    .smallchilli{
+        position: absolute !important;
+        right: 16px !important;
+        top: 200px;
+        width: 50px;
+    }
+    
+    .smallchilli img{
+        width: 60px !important;
+    }
+}
+
+@media (min-width:768px) {
+    .hero-image{
+        width: 468.01px;
+        height: 615px;
+    }
+
+    .D-String{
+        right: 280px;
+        top: 150px;
+    }
+
+    .D-String .img{
+        width: 379px ;
+        height: 314px ;
+    }
+
+    .Pepper{
+        right: 270px;
+        top: 90px ;
+    }
+
+    .Pepper img{
+        width: 175.58px;
+        height: 117.05px;
+    }
+
+    .Hero{
+        gap: 2rem;
+    }
+
+    .HeroHeader h1{
+        width: 580px;
+        font-size: 80px !important;
+        font-weight: bold;
+    }
+
+    .HeroHeader p{
+        width: 570px;
+        font-size: 24px;
+    }
+
+    .hero-image img{
+        width: 392.97px !important;
+        height: 539.09px !important;
+    }
+
+    .Cart{
+        width: 215px !important;
+        height: 75px;
+        border-radius: 50px;
+    }
+
+    .Cart a{
+        font-size: 20px;
+    }
+
+    .increase-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .increase-icon a{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .decrease-icon{
+        width: 50px;
+        height: 50px;
+    }
+    .decrease-icon a{
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .Fruit{
+        position: absolute;
+        bottom: 170px;
+        right: 20px;
+    }
+
+    .Fruit .corn {
+        background-color: #D51037;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .Fruit .Chilli{
+        background-color: #EEA936;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .Fruit .Fire{
+        background-color: #23675A;
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+    }
+
+    .chips{
+        position: absolute;
+        top: 540px;
+        left: -20px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .chips-two{
+        position: absolute;
+        bottom: 0;
+        right: -20px;
+    }
+
+    .smallchilli{
+        width: 100px;
+        position: absolute;
+        top: 380px;
+        right: 17px;
+    }
+
+    .smallchilli img{
+        width: 105.14px !important;
+        height: 258.98px !important;
+    }
+}
+
+@media (min-width:400px) {
+    /* .Chip-bundle{
+        position: relative;
+        left: 50px;
+    }
+
+    .Fruit-bundle{
+        position: relative;
+        left: 60px;
+    } */
+    
+
+    .String img{
+        width: 220px;
+    }
+
+    .Plane img{
+        width: 115px;
+    }
+    
+
+}

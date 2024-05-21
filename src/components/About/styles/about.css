@@ -1,0 +1,65 @@
+@media (min-width:768px) {
+
+    .Chilli-pepper{
+        position: absolute !important;
+        right: 0;
+        top: 100px;
+    }
+
+     .chips-one{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .chips-one img{
+        width: 500px !important;
+        height: 320px;
+    }
+    .chips-two{
+        position: absolute;
+        right: 0;
+    }
+    .chips-two img{
+        width: 500px;
+    }
+
+    .AboutTitle{
+        position: relative;
+        top: 200px;
+    }
+
+    .AboutTitle h1{
+        font-size: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .Chilli-pepper{
+        position: absolute !important;
+        right: 0;
+        top: 100px;
+    }
+
+     .chips-one{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+    .chips-one img{
+        width: 150px !important;
+        height: 180px;
+    }
+    .Chips-two{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
+    .Chips-two img{
+        width: 200px;
+    }
+
+    .AboutTitle{
+        position: relative;
+        top: 100px;
+    }
+}
