@@ -46,7 +46,7 @@
     
     .shopping-content{
         position: absolute;
-        bottom: -100px;
+        bottom: -30px;
         
     }
     .Cart img{
@@ -56,6 +56,11 @@
 
     .Cart a{
         font-size: 12.5px;
+    }
+
+    .String{
+        position: absolute;
+        bottom: 40px;
     }
 
     .increase-icon{
@@ -140,7 +145,7 @@
     
     .chips{
         position: relative;
-        top: 215px;
+        top: 200px;
     }
 
     .chips div:first-child{
